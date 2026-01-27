@@ -50,3 +50,66 @@ potfollow/
 ├── single-project.php
 ├── style.css
 └── README.md
+
+
+
+##🧩 Custom Post Type: Projects
+
+Each project includes:
+
+-Title
+-Featured Image
+-Description
+-Project Category
+-Live URL
+-GitHub URL
+-Tech Stack
+-Status (Completed / Ongoing)
+
+
+##🚀 Installation
+
+Clone the repository into:
+
+wp-content/themes/
+
+
+Activate POTFOLLOW from WordPress Admin
+
+Ensure the MU-plugin is present in:
+
+wp-content/mu-plugins/
+
+
+Re-save permalinks:
+
+Settings → Permalinks → Save Changes
+
+
+##🛠️ Tech Stack
+
+-WordPress (Classic Theme)
+
+-PHP
+
+-HTML
+
+-CSS
+
+-JavaScript
+
+-Git & GitHub
+
+📌 Status
+
+This project is actively being developed and improved as part of my WordPress learning journey.
+
+##👤 Author
+
+Franklyn Okafor
+Frontend & WordPress Developer
+Building in public 🚀
+
+##📄 License
+
+This project is open-source and available for learning and personal use.
