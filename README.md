@@ -53,7 +53,7 @@ potfollow/
 
 
 ```
-##🧩 Custom Post Type: Projects
+## 🧩 Custom Post Type: Projects
 
 Each project includes:
 
@@ -67,7 +67,7 @@ Each project includes:
 -Status (Completed / Ongoing)
 
 
-##🚀 Installation
+## 🚀 Installation
 
 Clone the repository into:
 
@@ -86,7 +86,7 @@ Re-save permalinks:
 Settings → Permalinks → Save Changes
 
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 -WordPress (Classic Theme)
 
@@ -100,16 +100,16 @@ Settings → Permalinks → Save Changes
 
 -Git & GitHub
 
-📌 Status
+## 📌 Status
 
 This project is actively being developed and improved as part of my WordPress learning journey.
 
-##👤 Author
+## 👤 Author
 
 Franklyn Okafor
 Frontend & WordPress Developer
 Building in public 🚀
 
-##📄 License
+## 📄 License
 
 This project is open-source and available for learning and personal use.
