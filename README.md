@@ -52,7 +52,7 @@ potfollow/
 └── README.md
 
 
-
+```
 ##🧩 Custom Post Type: Projects
 
 Each project includes:
