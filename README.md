@@ -57,13 +57,13 @@ potfollow/
 
 Each project includes:
 
--Title
--Featured Image
--Description
--Project Category
--Live URL
--GitHub URL
--Tech Stack
+- Title
+- Featured Image
+- Description
+- Project Category
+- Live URL
+- GitHub URL
+- Tech Stack
 -Status (Completed / Ongoing)
 
 
@@ -88,17 +88,17 @@ Settings → Permalinks → Save Changes
 
 ## 🛠️ Tech Stack
 
--WordPress (Classic Theme)
+- WordPress (Classic Theme)
 
--PHP
+- PHP
 
--HTML
+- HTML
 
--CSS
+- CSS
 
--JavaScript
+- JavaScript
 
--Git & GitHub
+- Git & GitHub
 
 ## 📌 Status
 
