@@ -13,6 +13,7 @@ html, body {
 }
 .site-content {
   flex: 1; /* this takes all available space */
+  margin: 0 70px;
 }
 
 

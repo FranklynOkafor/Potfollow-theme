@@ -14,7 +14,7 @@
 }
 
 .archive-header p {
-  color: #aaa;
+  color: #797979;
 }
 
 
@@ -112,5 +112,184 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+/* SINGLE PROJECTS */
+
+/* Page Wrapper */
+
+
+/* Hero Section */
+.project-hero {
+  margin-bottom: 2.5rem;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+}
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Category */
+.project-category a {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-category a:hover {
+  text-decoration: underline;
+}
+
+
+/* Status badge */
+.project-status {
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* dynamic status colors */
+.project-status.Completed{
+  background-color: rgba(46, 204, 113, 0.15);
+  color: #2ecc71;
+}
+
+.project-status.Ongoing {
+  background-color: rgba(241, 196, 15, 0.15);
+  color: #f1c40f;
+}
+
+
+/* FEATURED image */
+.project-image {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image img {
+  width: 70%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  animation: fadeUp 0.6s ease both;
+  
+}
+
+
+/* DESCRIPTION CONTENT */
+.project-description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 3rem;
+}
+
+.project-description h2,
+.project-description h3 {
+  margin-top: 2.5rem;
+}
+
+.project-description p {
+  margin-bottom: 1.2rem;
+}
+
+
+/* PROJECT DETAILS */
+.project-details {
+  background: #111;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+}
+
+.project-details h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.project-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-details li {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.project-details a {
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-details a:hover {
+  text-decoration: underline;
+}
+
+.demo_link{
+  margin-right: 30px;
+}
+
+/* BACK TO PROJECTS */
+.back-projects {
+  display: inline-block;
+  margin: 2rem 0 8rem;
+  color: #111;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.back-projects:hover {
+  transform: translateX(-5px);
+}
+
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .project-details {
+    padding: 1.5rem;
   }
 }
