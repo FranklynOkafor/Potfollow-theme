@@ -40,6 +40,14 @@ function potfollow_enqueue_assets()
     filemtime(get_template_directory() . '/assets/css/front-page.css') // cache busting
   );
 
+  // ABOUT PAGE
+  wp_enqueue_style(
+    'about-page-main',
+    get_template_directory_uri() . '/assets/css/about.css',
+    [],
+    filemtime(get_template_directory() . '/assets/css/about.css') // cache busting
+  );
+
   // Projects styles
   // if (is_post_type_archive('project') || is_singular('project')) {
     wp_enqueue_style(
