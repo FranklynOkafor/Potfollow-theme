@@ -135,4 +135,4 @@ This project represents my approach to learning and building — focusing on rea
 This is **v1.0.0**, the first stable release.  
 Future improvements may include refinements, additional customization options, or performance optimizations as needed.
 
-Built with intention. 🚀
+Built with intention. 🚀 Built by Franklyn
