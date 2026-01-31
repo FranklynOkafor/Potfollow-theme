@@ -13,7 +13,15 @@
       <div class="container">
         <!-- Logo -->
         <div class="site-logo">
-          <a href="<?= home_url() ?>?>"><?php bloginfo('name') ?></a>
+          <?php
+          $front_page_id = get_option('page_on_front');
+          $hero_name = get_field('hero_name', $front_page_id);
+          ?>
+
+          <a href="<?= esc_url(home_url('/')); ?>">
+            <?= esc_html($hero_name ?: get_bloginfo('name')); ?>
+          </a>
+
         </div>
 
         <!-- Navigation Menu -->

@@ -11,3 +11,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+
+
+// skills sectio 
+document.addEventListener("DOMContentLoaded", () => {
+  const bars = document.querySelectorAll(".skill-fill");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const level = entry.target.dataset.level;
+        entry.target.style.width = level + "%";
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  bars.forEach(bar => observer.observe(bar));
+});
