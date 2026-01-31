@@ -18,6 +18,9 @@
 
         }
       }
+      else{
+        echo '<p class="empty-state">No projects yet. Check back soon.</p>';
+      }
     ?>
     </section>
 
