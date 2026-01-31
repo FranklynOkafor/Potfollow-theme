@@ -113,3 +113,7 @@ Building in public 🚀
 ## 📄 License
 
 This project is open-source and available for learning and personal use.
+
+
+## Who this theme is for 
+POTFOLLOW is designed for developers and creatives who want a clean, project-focused portfolio without page builders
