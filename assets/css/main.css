@@ -1,3 +1,10 @@
+/* CSS Variable */
+:root {
+  --primary: #111;
+  --accent: #f39c12;
+  --text: #444;
+}
+
 * {
   padding: 0;
   margin: 0;
