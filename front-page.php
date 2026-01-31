@@ -17,9 +17,6 @@
         </a>
       <?php endif; ?>
     </div>
-
-
-
   </section>
 
   <!-- ABOUT SECTION -->
