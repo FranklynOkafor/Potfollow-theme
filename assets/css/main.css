@@ -167,3 +167,9 @@ html, body {
   }
 }
 
+/* Addition for button, cards and links  */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #f39c12;
+  outline-offset: 4px;
+}
